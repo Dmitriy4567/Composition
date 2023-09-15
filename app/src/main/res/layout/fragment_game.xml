@@ -13,7 +13,7 @@
         android:layout_height="wrap_content"
         android:layout_margin="8dp"
         android:text="00:00"
-        android:textColor="@color/material_dynamic_primary10"
+        android:textColor="@color/black"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -30,7 +30,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_chainStyle="packed"
-        tools:text="1" />
+        android:text="1" />
 
     <TextView
         android:id="@+id/tv_left_number"
@@ -44,7 +44,7 @@
         app:layout_constraintHorizontal_chainStyle="packed"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tv_sum"
-        tools:text="7" />
+        android:text="7" />
 
     <TextView
         android:id="@+id/tv_question"
@@ -69,7 +69,7 @@
         app:layout_constraintEnd_toStartOf="@+id/tv_option_5"
         app:layout_constraintHorizontal_chainStyle="spread"
         app:layout_constraintStart_toStartOf="parent"
-        tools:text="1" />
+        android:text="1" />
 
     <TextView
         android:id="@+id/tv_option_2"
@@ -80,7 +80,7 @@
         app:layout_constraintBottom_toTopOf="@+id/tv_option_4"
         app:layout_constraintEnd_toStartOf="@+id/tv_option_6"
         app:layout_constraintStart_toEndOf="@+id/tv_option_4"
-        tools:text="2" />
+        android:text="2" />
 
     <TextView
         android:id="@+id/tv_option_3"
@@ -91,7 +91,7 @@
         app:layout_constraintBottom_toTopOf="@+id/tv_option_4"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/tv_option_5"
-        tools:text="3" />
+        android:text="3" />
 
     <TextView
         android:id="@+id/tv_option_4"
@@ -103,7 +103,7 @@
         app:layout_constraintEnd_toStartOf="@+id/tv_option_5"
         app:layout_constraintHorizontal_chainStyle="spread"
         app:layout_constraintStart_toStartOf="parent"
-        tools:text="4" />
+        android:text="4" />
 
     <TextView
         android:id="@+id/tv_option_5"
@@ -114,7 +114,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/tv_option_6"
         app:layout_constraintStart_toEndOf="@+id/tv_option_4"
-        tools:text="5" />
+        android:text="5" />
 
     <TextView
         android:id="@+id/tv_option_6"
@@ -125,14 +125,14 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/tv_option_5"
-        tools:text="6" />
+        android:text="6" />
 
     <TextView
         android:id="@+id/tv_answers_progress"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="16dp"
-        android:text="Здесь какойто текст с процентами"
+        android:text="@string/progress_answers"
         app:layout_constraintBottom_toTopOf="@+id/progress_bar"
         app:layout_constraintTop_toBottomOf="@+id/tv_left_number"
         app:layout_constraintVertical_chainStyle="spread" />

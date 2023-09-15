@@ -2,4 +2,10 @@
     <string name="app_name">Composition</string>
     <string name="Rules">Правила игры: перед вами будет три фигуры, две снизу и одна сверху. В двух из них будут числа. Неоюходимо, чтобы сумма чисел из двух нижних фигур была равна числу в верхней фигуре. Для этого нужно вставить недостающее число. Пример: в верхнем круге число 7. В одном из них знак вопроса, а в другом число 4. Значит, что на месте вопросительного знака должно быть число 3, потому что 3 + 4 = 7.</string>
     <string name="question_mark">\?</string>
+    <string name="progress_answers">Правильныч ответов %s (минимум %s)</string>
+    <string name="required_score">Необходимый количество правильных ответов: %s</string>
+    <string name="score_answers">Ваш счет: %s</string>
+    <string name="required_percentage">Необходимый процент правильных ответов: %s</string>
+    <string name="score_percentage">Процент правильных ответов: %s</string>
+
 </resources>
